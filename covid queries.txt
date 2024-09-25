@@ -1,0 +1,39 @@
+--select * from [covid data (j)]
+use joy
+go
+
+--select WHO_Region, Cases_cumulative_total from [covid data (j)]
+--order by Cases_cumulative_total
+--desc
+
+--select WHO_Region, Deaths_cumulative_total from [covid data (j)]
+--order by Deaths_cumulative_total
+--desc
+
+--select WHO_Region, Deaths_cumulative_total from [covid data (j)]
+--where Deaths_cumulative_total > 100
+
+--select WHO_Region, Cases_cumulative_total from [covid data (j)]
+--where Cases_cumulative_total > 1000
+
+--select * from [covid data (j)]
+--where Cases_newly_reported_in_last_7_days > 50
+
+--select WHO_Region, Cases_cumulative_total from [covid data (j)]
+--where Deaths_cumulative_total < 50
+
+--select * from [covid data (j)]
+--where Deaths_newly_reported_in_last_7_days > 50
+ 
+--select * from [covid data (j)]
+--where Deaths_newly_reported_in_last_24_hours < 10
+
+--select * from [covid data (j)]
+--where Cases_cumulative_total > 5000 and Deaths_cumulative_total < 50
+
+--select WHO_Region, Cases_newly_reported_in_last_7_days from [covid data (j)]
+--order by Cases_newly_reported_in_last_7_days desc
+
+--select * from [covid data (j)]
+--where Deaths_cumulative_total > 1000
+
